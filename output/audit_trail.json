@@ -1,0 +1,1059 @@
+[
+  {
+    "timestamp_utc": "2026-10-15T01:49:40.023886+00:00",
+    "agent": "Boss",
+    "event": "step",
+    "summary": "Started ticket triage with compact context.",
+    "tool_name": null,
+    "arguments": {},
+    "result": {
+      "ticket_id": 101,
+      "requested_agents": [
+        "Inventory",
+        "Accounting",
+        "Customer Service"
+      ]
+    },
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:49:40.024448+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Inventory.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 101,
+        "requested_agents": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:49:40.024652+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Accounting.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 101,
+        "requested_agents": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:49:40.024739+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Customer Service.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 101,
+        "requested_agents": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:49:40.024814+00:00",
+    "agent": "Boss",
+    "event": "decision",
+    "summary": "Stopped after the bounded evidence-gathering plan; no specialist was called twice.",
+    "tool_name": null,
+    "arguments": {},
+    "result": null,
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:49:40.024896+00:00",
+    "agent": "Boss",
+    "event": "step",
+    "summary": "Started ticket triage with compact context.",
+    "tool_name": null,
+    "arguments": {},
+    "result": {
+      "ticket_id": 102,
+      "requested_agents": [
+        "Facilities",
+        "Accounting"
+      ]
+    },
+    "ticket_id": 102
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:49:40.024968+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Facilities.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 102,
+        "requested_agents": [
+          "Facilities",
+          "Accounting"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 102
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:49:40.025040+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Accounting.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 102,
+        "requested_agents": [
+          "Facilities",
+          "Accounting"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 102
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:49:40.025113+00:00",
+    "agent": "Boss",
+    "event": "decision",
+    "summary": "Stopped after the bounded evidence-gathering plan; no specialist was called twice.",
+    "tool_name": null,
+    "arguments": {},
+    "result": null,
+    "ticket_id": 102
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:49:40.025396+00:00",
+    "agent": "Boss",
+    "event": "step",
+    "summary": "Started ticket triage with compact context.",
+    "tool_name": null,
+    "arguments": {},
+    "result": {
+      "ticket_id": 999,
+      "requested_agents": []
+    },
+    "ticket_id": 999
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:49:40.025509+00:00",
+    "agent": "Boss",
+    "event": "final_result",
+    "summary": "Stopped: no routing plan exists for this ticket.",
+    "tool_name": null,
+    "arguments": {},
+    "result": null,
+    "ticket_id": 999
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:29.704846+00:00",
+    "agent": "Boss",
+    "event": "step",
+    "summary": "Started ticket triage with compact context.",
+    "tool_name": null,
+    "arguments": {},
+    "result": {
+      "ticket_id": 101,
+      "requested_agents": [
+        "Inventory",
+        "Accounting",
+        "Customer Service"
+      ]
+    },
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:29.705945+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Inventory.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 101,
+        "requested_agents": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:29.706067+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Accounting.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 101,
+        "requested_agents": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:29.706165+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Customer Service.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 101,
+        "requested_agents": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:29.706258+00:00",
+    "agent": "Boss",
+    "event": "decision",
+    "summary": "Stopped after the bounded evidence-gathering plan; no specialist was called twice.",
+    "tool_name": null,
+    "arguments": {},
+    "result": null,
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:29.706360+00:00",
+    "agent": "Boss",
+    "event": "step",
+    "summary": "Started ticket triage with compact context.",
+    "tool_name": null,
+    "arguments": {},
+    "result": {
+      "ticket_id": 102,
+      "requested_agents": [
+        "Facilities",
+        "Accounting"
+      ]
+    },
+    "ticket_id": 102
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:29.706461+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Facilities.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 102,
+        "requested_agents": [
+          "Facilities",
+          "Accounting"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 102
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:29.706557+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Accounting.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 102,
+        "requested_agents": [
+          "Facilities",
+          "Accounting"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 102
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:29.706649+00:00",
+    "agent": "Boss",
+    "event": "decision",
+    "summary": "Stopped after the bounded evidence-gathering plan; no specialist was called twice.",
+    "tool_name": null,
+    "arguments": {},
+    "result": null,
+    "ticket_id": 102
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:29.706751+00:00",
+    "agent": "Boss",
+    "event": "step",
+    "summary": "Started ticket triage with compact context.",
+    "tool_name": null,
+    "arguments": {},
+    "result": {
+      "ticket_id": 103,
+      "requested_agents": [
+        "Inventory",
+        "Accounting",
+        "Customer Service"
+      ]
+    },
+    "ticket_id": 103
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:29.706848+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Inventory.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 103,
+        "requested_agents": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 103
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:29.706978+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Accounting.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 103,
+        "requested_agents": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 103
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:29.707113+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Customer Service.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 103,
+        "requested_agents": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 103
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:29.707278+00:00",
+    "agent": "Boss",
+    "event": "decision",
+    "summary": "Stopped after the bounded evidence-gathering plan; no specialist was called twice.",
+    "tool_name": null,
+    "arguments": {},
+    "result": null,
+    "ticket_id": 103
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:34.578988+00:00",
+    "agent": "Boss",
+    "event": "step",
+    "summary": "Started ticket triage with compact context.",
+    "tool_name": null,
+    "arguments": {},
+    "result": {
+      "ticket_id": 101,
+      "requested_agents": [
+        "Inventory",
+        "Accounting",
+        "Customer Service"
+      ]
+    },
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:34.579333+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Inventory.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 101,
+        "requested_agents": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:34.579515+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Accounting.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 101,
+        "requested_agents": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:34.579672+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Customer Service.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 101,
+        "requested_agents": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:34.579816+00:00",
+    "agent": "Boss",
+    "event": "decision",
+    "summary": "Stopped after the bounded evidence-gathering plan; no specialist was called twice.",
+    "tool_name": null,
+    "arguments": {},
+    "result": null,
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:34.580176+00:00",
+    "agent": "Boss",
+    "event": "step",
+    "summary": "Started ticket triage with compact context.",
+    "tool_name": null,
+    "arguments": {},
+    "result": {
+      "ticket_id": 102,
+      "requested_agents": [
+        "Facilities",
+        "Accounting"
+      ]
+    },
+    "ticket_id": 102
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:34.580324+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Facilities.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 102,
+        "requested_agents": [
+          "Facilities",
+          "Accounting"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 102
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:34.580463+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Accounting.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 102,
+        "requested_agents": [
+          "Facilities",
+          "Accounting"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 102
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:34.580729+00:00",
+    "agent": "Boss",
+    "event": "decision",
+    "summary": "Stopped after the bounded evidence-gathering plan; no specialist was called twice.",
+    "tool_name": null,
+    "arguments": {},
+    "result": null,
+    "ticket_id": 102
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:34.581070+00:00",
+    "agent": "Boss",
+    "event": "step",
+    "summary": "Started ticket triage with compact context.",
+    "tool_name": null,
+    "arguments": {},
+    "result": {
+      "ticket_id": 103,
+      "requested_agents": [
+        "Inventory",
+        "Accounting",
+        "Customer Service"
+      ]
+    },
+    "ticket_id": 103
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:34.581230+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Inventory.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 103,
+        "requested_agents": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 103
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:34.581406+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Accounting.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 103,
+        "requested_agents": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 103
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:34.581554+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Customer Service.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 103,
+        "requested_agents": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 103
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:55:34.581692+00:00",
+    "agent": "Boss",
+    "event": "decision",
+    "summary": "Stopped after the bounded evidence-gathering plan; no specialist was called twice.",
+    "tool_name": null,
+    "arguments": {},
+    "result": null,
+    "ticket_id": 103
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.876131+00:00",
+    "agent": "Boss",
+    "event": "decision",
+    "summary": "Official run reset completed; starting checking balance recorded.",
+    "tool_name": null,
+    "arguments": {},
+    "result": {
+      "starting_checking_balance": 3400.0,
+      "working_database": "data/campus_customs_new.db"
+    },
+    "ticket_id": null
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.876769+00:00",
+    "agent": "Boss",
+    "event": "step",
+    "summary": "Started ticket triage with compact context.",
+    "tool_name": null,
+    "arguments": {},
+    "result": {
+      "ticket_id": 101,
+      "requested_agents": [
+        "Inventory",
+        "Accounting",
+        "Customer Service"
+      ]
+    },
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.877004+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Inventory.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 101,
+        "requested_agents": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.877465+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Accounting.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 101,
+        "requested_agents": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.877847+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Customer Service.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 101,
+        "requested_agents": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.878199+00:00",
+    "agent": "Boss",
+    "event": "decision",
+    "summary": "Stopped after the bounded evidence-gathering plan; no specialist was called twice.",
+    "tool_name": null,
+    "arguments": {},
+    "result": null,
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.878506+00:00",
+    "agent": "Boss",
+    "event": "step",
+    "summary": "Started ticket triage with compact context.",
+    "tool_name": null,
+    "arguments": {},
+    "result": {
+      "ticket_id": 102,
+      "requested_agents": [
+        "Facilities",
+        "Accounting"
+      ]
+    },
+    "ticket_id": 102
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.878685+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Facilities.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 102,
+        "requested_agents": [
+          "Facilities",
+          "Accounting"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 102
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.878834+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Accounting.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 102,
+        "requested_agents": [
+          "Facilities",
+          "Accounting"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 102
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.878988+00:00",
+    "agent": "Boss",
+    "event": "decision",
+    "summary": "Stopped after the bounded evidence-gathering plan; no specialist was called twice.",
+    "tool_name": null,
+    "arguments": {},
+    "result": null,
+    "ticket_id": 102
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.879132+00:00",
+    "agent": "Boss",
+    "event": "step",
+    "summary": "Started ticket triage with compact context.",
+    "tool_name": null,
+    "arguments": {},
+    "result": {
+      "ticket_id": 103,
+      "requested_agents": [
+        "Inventory",
+        "Accounting",
+        "Customer Service"
+      ]
+    },
+    "ticket_id": 103
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.879277+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Inventory.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 103,
+        "requested_agents": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 103
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.879419+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Accounting.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 103,
+        "requested_agents": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 103
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.879784+00:00",
+    "agent": "Boss",
+    "event": "delegation",
+    "summary": "Delegated only the relevant review to Customer Service.",
+    "tool_name": null,
+    "arguments": {
+      "depth": 1,
+      "context": {
+        "ticket_id": 103,
+        "requested_agents": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ]
+      }
+    },
+    "result": null,
+    "ticket_id": 103
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.880059+00:00",
+    "agent": "Boss",
+    "event": "decision",
+    "summary": "Stopped after the bounded evidence-gathering plan; no specialist was called twice.",
+    "tool_name": null,
+    "arguments": {},
+    "result": null,
+    "ticket_id": 103
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.880287+00:00",
+    "agent": "Accounting",
+    "event": "approval_request",
+    "summary": "Pay open Bulldog Print Co invoice 501 to unblock tee replenishment.",
+    "tool_name": null,
+    "arguments": {
+      "amount": 840,
+      "kind": "payment"
+    },
+    "result": {
+      "status": "pending",
+      "human_approval_required": true
+    },
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.880462+00:00",
+    "agent": "Human Supervisor",
+    "event": "decision",
+    "summary": "Human approval granted before payment attempt.",
+    "tool_name": null,
+    "arguments": {
+      "amount": 840,
+      "approved_by": "Campus Customs supervisor"
+    },
+    "result": {
+      "approved": true
+    },
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.882116+00:00",
+    "agent": "Accounting",
+    "event": "decision",
+    "summary": "Approved payment recorded after human approval.",
+    "tool_name": null,
+    "arguments": {
+      "amount": 840
+    },
+    "result": {
+      "approved": true,
+      "ending_balance": 2560.0
+    },
+    "ticket_id": 101
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.882385+00:00",
+    "agent": "Accounting",
+    "event": "approval_request",
+    "summary": "Pay lease 1 rent due 2026-09-02.",
+    "tool_name": null,
+    "arguments": {
+      "amount": 2400,
+      "kind": "payment"
+    },
+    "result": {
+      "status": "pending",
+      "human_approval_required": true
+    },
+    "ticket_id": 102
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.882559+00:00",
+    "agent": "Human Supervisor",
+    "event": "decision",
+    "summary": "Human approval granted before payment attempt.",
+    "tool_name": null,
+    "arguments": {
+      "amount": 2400,
+      "approved_by": "Campus Customs supervisor"
+    },
+    "result": {
+      "approved": true
+    },
+    "ticket_id": 102
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.883245+00:00",
+    "agent": "Accounting",
+    "event": "decision",
+    "summary": "Approved payment recorded after human approval.",
+    "tool_name": null,
+    "arguments": {
+      "amount": 2400
+    },
+    "result": {
+      "approved": true,
+      "ending_balance": 160.0
+    },
+    "ticket_id": 102
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.883419+00:00",
+    "agent": "Accounting",
+    "event": "approval_request",
+    "summary": "Purchase 12 CC-HOOD-NAVY size M units to cover the shortfall.",
+    "tool_name": null,
+    "arguments": {
+      "amount": 264,
+      "kind": "purchase"
+    },
+    "result": {
+      "status": "pending",
+      "human_approval_required": true
+    },
+    "ticket_id": 103
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.883579+00:00",
+    "agent": "Human Supervisor",
+    "event": "decision",
+    "summary": "Human approval granted before payment attempt.",
+    "tool_name": null,
+    "arguments": {
+      "amount": 264,
+      "approved_by": "Campus Customs supervisor"
+    },
+    "result": {
+      "approved": true
+    },
+    "ticket_id": 103
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:16.883869+00:00",
+    "agent": "Accounting",
+    "event": "decision",
+    "summary": "Payment refused: insufficient checking cash; balance protected from going negative.",
+    "tool_name": null,
+    "arguments": {
+      "amount": 264,
+      "current_balance": 160.0
+    },
+    "result": {
+      "approved": false,
+      "refused": true
+    },
+    "ticket_id": 103
+  },
+  {
+    "timestamp_utc": "2026-10-15T01:56:55.177032+00:00",
+    "agent": "Accounting",
+    "event": "decision",
+    "summary": "Reconciliation corrected the paid invoice and synchronized ticket statuses with recorded outcomes.",
+    "tool_name": null,
+    "arguments": {},
+    "result": {
+      "invoice_501": "paid",
+      "ticket_statuses": {
+        "101": "needs_review",
+        "102": "resolved",
+        "103": "needs_review"
+      }
+    },
+    "ticket_id": null
+  }
+]

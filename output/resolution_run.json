@@ -1,0 +1,53 @@
+{
+  "working_database": "data/campus_customs_new.db",
+  "reset_from_original": true,
+  "runs": [
+    {
+      "ticket_id": 101,
+      "run_at_utc": "2026-10-15T01:55:34.579962+00:00",
+      "decision": {
+        "ticket_id": 101,
+        "status": "open",
+        "rationale": "Selective evidence gathering is complete; human or backend decision step remains.",
+        "delegated_to": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ],
+        "approval_required": false
+      },
+      "database_status": "open"
+    },
+    {
+      "ticket_id": 102,
+      "run_at_utc": "2026-10-15T01:55:34.580937+00:00",
+      "decision": {
+        "ticket_id": 102,
+        "status": "open",
+        "rationale": "Selective evidence gathering is complete; human or backend decision step remains.",
+        "delegated_to": [
+          "Facilities",
+          "Accounting"
+        ],
+        "approval_required": false
+      },
+      "database_status": "open"
+    },
+    {
+      "ticket_id": 103,
+      "run_at_utc": "2026-10-15T01:55:34.581831+00:00",
+      "decision": {
+        "ticket_id": 103,
+        "status": "open",
+        "rationale": "Selective evidence gathering is complete; human or backend decision step remains.",
+        "delegated_to": [
+          "Inventory",
+          "Accounting",
+          "Customer Service"
+        ],
+        "approval_required": false
+      },
+      "database_status": "open"
+    }
+  ]
+}

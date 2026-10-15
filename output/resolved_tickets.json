@@ -1,0 +1,123 @@
+{
+  "run_type": "official",
+  "starting_checking_balance": 3400,
+  "ending_checking_balance": 160.0,
+  "payments": [
+    [
+      "payment",
+      101,
+      840.0,
+      "Campus Customs supervisor"
+    ],
+    [
+      "payment",
+      102,
+      2400.0,
+      "Campus Customs supervisor"
+    ]
+  ],
+  "tickets": [
+    {
+      "ticket_id": 101,
+      "status": "needs_review",
+      "agents": [
+        "Boss",
+        "Inventory",
+        "Accounting",
+        "Customer Service"
+      ],
+      "delegations": [
+        "Boss \u2192 Inventory",
+        "Boss \u2192 Accounting",
+        "Boss \u2192 Customer Service"
+      ],
+      "mcp_tools": [
+        "inspect_product_stock_and_pricing",
+        "retrieve_ticket_operations_context",
+        "summarize_cash_rent_and_vendor_obligations"
+      ],
+      "decisions": [
+        "Size S stock is 0; shortfall is 1; invoice 501 is open."
+      ],
+      "approval": {
+        "approved": true,
+        "amount": 840,
+        "approved_by": "Campus Customs supervisor"
+      },
+      "cash_impact": -840,
+      "outcome": "Invoice paid; replenishment/customer fulfillment still requires confirmation."
+    },
+    {
+      "ticket_id": 102,
+      "status": "resolved",
+      "agents": [
+        "Boss",
+        "Facilities",
+        "Accounting"
+      ],
+      "delegations": [
+        "Boss \u2192 Facilities",
+        "Facilities \u2192 Accounting"
+      ],
+      "mcp_tools": [
+        "retrieve_ticket_operations_context",
+        "summarize_cash_rent_and_vendor_obligations"
+      ],
+      "decisions": [
+        "Lease 1 rent is $2,400 due 2026-09-02."
+      ],
+      "approval": {
+        "approved": true,
+        "amount": 2400,
+        "approved_by": "Campus Customs supervisor"
+      },
+      "cash_impact": -2400,
+      "outcome": "Rent payment recorded; ticket financially resolved."
+    },
+    {
+      "ticket_id": 103,
+      "status": "needs_review",
+      "agents": [
+        "Boss",
+        "Inventory",
+        "Accounting",
+        "Customer Service"
+      ],
+      "delegations": [
+        "Boss \u2192 Inventory",
+        "Boss \u2192 Accounting",
+        "Boss \u2192 Customer Service"
+      ],
+      "mcp_tools": [
+        "inspect_product_stock_and_pricing",
+        "summarize_cash_rent_and_vendor_obligations"
+      ],
+      "decisions": [
+        "8 in stock; shortfall 12; purchase cost $264."
+      ],
+      "approval": {
+        "approved": true,
+        "amount": 264,
+        "approved_by": "Campus Customs supervisor",
+        "executed": false,
+        "refusal": "Insufficient checking cash; $160 available."
+      },
+      "cash_impact": 0,
+      "outcome": "Purchase refused safely; ticket needs review."
+    }
+  ],
+  "reconciliation": {
+    "invoice_501_status": "paid",
+    "database_ticket_statuses": {
+      "101": "needs_review",
+      "102": "resolved",
+      "103": "needs_review"
+    },
+    "cash_math": "3400 - 840 - 2400 = 160",
+    "differences_explained": {
+      "101": "Expected plan anticipated replenishment after invoice review; actual remains needs_review because inventory fulfillment was not recorded.",
+      "102": "Expected plan anticipated an approval; actual approval and payment were recorded, so it is resolved.",
+      "103": "Expected plan anticipated a purchase evaluation; actual purchase was refused because only $160 remained, so it is needs_review."
+    }
+  }
+}

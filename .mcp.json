@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "campus-customs-operations": {
+      "command": "python3",
+      "args": ["mcp_server/server.py"]
+    }
+  }
+}
